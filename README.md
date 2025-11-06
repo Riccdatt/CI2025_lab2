@@ -91,8 +91,86 @@ For each instance, the best tour and computation time are recorded, along with t
 - Best distance: 13731.26
 - Time taken: 31.40 s
 ![Best distance evolution for problem_g_1000](results/plot_problem_g_1000.png)
+
+**Problem_r1_10:**
+- Best distance: 184.27
+- Time taken: 6.28 s
+![Best distance evolution for problem_r1_10](results/plot_problem_r1_10.png)
+
+**Problem_r1_20:** 
+- Best distance: 340.86 
+- Time taken: 6.62 s
+![Best distance evolution for problem_r1_20](results/plot_problem_r1_20.png)
+
+**Problem_r1_50:** 
+- Best distance: 574.42 
+- Time taken: 7.61 s
+![Best distance evolution for problem_r1_50](results/plot_problem_r1_50.png)
+
+**Problem_r1_100:**
+  - Best distance: 738.81
+  - Time taken: 8.92 s
+![Best distance evolution for problem_r1_100](results/plot_problem_r1_100.png)
+
+**Problem_r1_200:**
+- Best distance: 1116.04
+- Time taken: 11.67 s
+![Best distance evolution for problem_r1_200](results/plot_problem_r1_200.png)
+
+**Problem_r1_500:** 
+- Best distance: 1754.14 
+- Time taken: 19.76 s
+![Best distance evolution for problem_r1_500](results/plot_problem_r1_500.png)
+
+**Problem_r1_1000:** 
+- Best distance: 2542.70 
+- Time taken: 35.30 s
+![Best distance evolution for problem_r1_1000](results/plot_problem_r1_1000.png)
+
+**Problem_r2_10:** 
+- Best distance: -411.70 
+- Time taken: 7.22 s
+![Best distance evolution for problem_r2_10](results/plot_problem_r2_10.png)
+
+**Problem_r2_20:** 
+- Best distance: -796.86 
+- Time taken: 7.37 s
+![Best distance evolution for problem_r2_20](results/plot_problem_r2_20.png)
+
+**Problem_r2_50:**
+- Best distance: -2232.38 
+- Time taken: 8.20 s
+![Best distance evolution for problem_r2_50](results/plot_problem_r2_50.png)
+
+**Problem_r2_100:** 
+- Best distance: -4667.68 
+- Time taken: 9.66 s 
+![Best distance evolution for problem_r2_100](results/plot_problem_r2_100.png)
+
+**Problem_r2_200:**
+- Best distance: -9603.77 
+- Time taken: 12.28 s 
+![Best distance evolution for problem_r2_200](results/plot_problem_r2_200.png)
+
+**Problem_r2_500:** 
+- Best distance: -24529.66 
+- Time taken: 19.96 s
+![Best distance evolution for problem_r2_500](results/plot_problem_r2_500.png)
+
+**Problem_r2_1000:** 
+- Best distance: -49402.98 
+- Time taken: 33.31 s
+![Best distance evolution for problem_r2_1000](results/plot_problem_r2_1000.png)
+
+
 ---
 
+## Final considerations:
+For the r2 problems, the behavior is strange: it looks like the greedy initial solutions already finds a local minimum that is very hard to escape.
+I think it may be the global minimum though, because using a random initial solution instead of the greedy it starts from a worse distance and then explores the space, without ever reaching the values reached with the greedy.
+
+
+---
 
 **Author:** [Riccardo Dattena (helped by ChatGPT for a couple of lines)]  
 **Course:** Computational Intelligence (CI2025/26)  
