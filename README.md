@@ -58,11 +58,11 @@ I used ChatGPT to help writing the inver_over_crossover and inver_over_crossover
 For each instance, the best tour and computation time are recorded, along with the corresponding convergence plot.
 
 ```
-![Best distance evolution for problem_g_10](results/problem_g_10_plot.png)
-![Best distance evolution for problem_g_20](results/problem_g_20_plot.png)
-![Best distance evolution for problem_g_50](results/problem_g_50_plot.png)
-![Best distance evolution for problem_g_100](results/problem_g_100_plot.png)
-![Best distance evolution for problem_g_200](results/problem_g_200_plot.png)
+![Best distance evolution for problem_g_10](results/plot_problem_g_10.png)
+![Best distance evolution for problem_g_20](results/plot_problem_g_20.png)
+![Best distance evolution for problem_g_50](results/plot_problem_g_50.png)
+![Best distance evolution for problem_g_100](results/plot_problem_g_100.png)
+![Best distance evolution for problem_g_200](results/plot_problem_g_200.png)
 ```
 
 ---
