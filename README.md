@@ -57,14 +57,42 @@ I used ChatGPT to help writing the inver_over_crossover and inver_over_crossover
 
 For each instance, the best tour and computation time are recorded, along with the corresponding convergence plot.
 
-
+**Problem_g_10:**
+- Best distance: 1497.66
+- Time taken: 6.07 s
 ![Best distance evolution for problem_g_10](results/plot_problem_g_10.png)
+
+**Problem_g_20:**
+- Best distance: 1755.51
+- Time taken: 6.35 s
 ![Best distance evolution for problem_g_20](results/plot_problem_g_20.png)
+
+**Problem_g_50:**
+- Best distance: 2677.21
+- Time taken: 7.10 s
 ![Best distance evolution for problem_g_50](results/plot_problem_g_50.png)
+
+**Problem_g_100:**
+- Best distance: 4136.06
+- Time taken: 8.39 s
 ![Best distance evolution for problem_g_100](results/plot_problem_g_100.png)
+
+**Problem_g_200:**
+- Best distance: 5752.18
+- Time taken: 11.01 s
 ![Best distance evolution for problem_g_200](results/plot_problem_g_200.png)
 
+**Problem_g_500:**
+- Best distance: 9166.13
+- Time taken: 18.52 s
+![Best distance evolution for problem_g_500](results/plot_problem_g_500.png)
+
+**Problem_g_1000:**
+- Best distance: 13731.26
+- Time taken: 31.40 s
+![Best distance evolution for problem_g_1000](results/plot_problem_g_1000.png)
 ---
+
 
 **Author:** [Riccardo Dattena (helped by ChatGPT for a couple of lines)]  
 **Course:** Computational Intelligence (CI2025/26)  
