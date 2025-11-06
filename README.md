@@ -55,24 +55,14 @@ I used ChatGPT to help writing the inver_over_crossover and inver_over_crossover
 
 ## Experimental Results
 
-Results will be reported for the following instances:
-
-```
-problem_g_10.npy
-problem_g_20.npy
-problem_g_50.npy
-problem_g_100.npy
-problem_g_200.npy
-problem_g_500.npy
-problem_g_1000.npy
-```
-
 For each instance, the best tour and computation time are recorded, along with the corresponding convergence plot.
 
-### Example of image inclusion
-
 ```
+![Best distance evolution for problem_g_10](results/problem_g_10_plot.png)
+![Best distance evolution for problem_g_20](results/problem_g_20_plot.png)
+![Best distance evolution for problem_g_50](results/problem_g_50_plot.png)
 ![Best distance evolution for problem_g_100](results/problem_g_100_plot.png)
+![Best distance evolution for problem_g_200](results/problem_g_200_plot.png)
 ```
 
 ---
