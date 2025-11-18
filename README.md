@@ -165,6 +165,14 @@ For each instance, the best tour and computation time are recorded, along with t
 
 ---
 
+## After the reviews:
+After my colleagues' review I added fixed random seeds for reproducibility and a comparison between the diffrent possible crossover and mutation functions.
+From them, we can see why I chose to stick with OX and inversion mutation. Inver over doesn't give any improvement and it takes much more time.
+
+All of these update can be found in the file called tsp_after_reviews.
+
+---
+
 ## Final considerations:
 For the r2 problems, the behavior is strange: it looks like the greedy initial solutions already finds a local minimum that is very hard to escape.
 I think it may be the global minimum though, because using a random initial solution instead of the greedy it starts from a worse distance and then explores the space, without ever reaching the values reached with the greedy.
